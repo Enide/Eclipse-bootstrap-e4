@@ -3,6 +3,8 @@
 Copyright (C) 2013, by [Paul Verest](http://eclipse-china.github.io/) within Enide http://enide.github.io
 You can do whatever you want with this projects as long as you keep this license notice (MIT License).
 
+https://marketplace.eclipse.org/content/enide-eclipse-boostrap-e4
+
 Enide - Eclipse bootstrap e4, includes:
 
 - Eclipse 4 Tools: Application Model Editor 
@@ -35,6 +37,8 @@ Please help to get Kepler bugs fixed by voting on these 2 bugs (you should be re
 
 Please use the #enide #bootstrap-e4 tags to tweet about.
 
+Contribute more plugins into this list at https://github.com/Enide/Eclipse-bootstrap-e4/
+
 -->
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
@@ -59,7 +63,7 @@ Please use the #enide #bootstrap-e4 tags to tweet about.
         <repository location='http://download.eclipse.org/e4/updates/0.14'/>
       </repositories>
     </iu>
-    <iu id='org.springsource.ide.eclipse.commons.quicksearch.feature.feature.group' name='Eclipse Quicksearch' version='3.4.0.201310051510-RELEASE'>
+    <iu id='org.springsource.ide.eclipse.commons.quicksearch.feature.feature.group' name='Eclipse Quicksearch (Ctrl+Shift+L)' version='3.4.0.201310051510-RELEASE'>
       <repositories size='1'>
         <repository location='http://dist.springsource.com/release/TOOLS/update/e4.3/'/>
       </repositories>

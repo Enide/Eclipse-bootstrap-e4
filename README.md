@@ -13,6 +13,7 @@ Enide - Eclipse bootstrap e4, includes:
 - Tycho Project Configurators (Standard Eclipse will download m2e, if you don't have)
 - StartExplorer
 
+<https://marketplace.eclipse.org/content/enide-eclipse-boostrap-e4>
 
 ![](Pictures/Enide-Eclipse-bootstrap-e4.png)
 
