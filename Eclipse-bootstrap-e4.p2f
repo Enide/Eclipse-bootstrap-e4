@@ -3,6 +3,16 @@
 Copyright (C) 2013, by [Paul Verest](http://eclipse-china.github.io/) within Enide http://enide.github.io
 You can do whatever you want with this projects as long as you keep this license notice (MIT License).
 
+Enide - Eclipse bootstrap e4, includes:
+
+- Eclipse 4 Tools: Application Model Editor 
+- Eclipse 4 Tools: CSS Spy 
+- Eclipse 4 Tools: Lightweight CSS Editor 
+- Nodeclipse Plugins List
+- Eclipse Quicksearch (Ctrl+Shift+L)
+- Tycho Project Configurators (Standard Eclipse will download m2e, if you don't have)
+- StartExplorer
+
 Usage: Save to local folder (Ctrl+S in most browsers)
  Make sure file extension is .p2f
  File -> Import \ Install Software Items from File, select this file location on your device.
@@ -11,7 +21,7 @@ Usage: Save to local folder (Ctrl+S in most browsers)
  Check http://enide.github.io for news and updates.
 
 WARNING: Not so good in Kepler:
-	There are 2 bug in Eclipse 4.3 Kepler, that may make "File -> Import \ Install" usage not comfortable.
+	There are 2 bug in Eclipse 4.3 Kepler, that may make "File -> Import \ Install" usage not quick/comfortable.
 	In this case use this file as information source for update site values, and use Help -> Install New Software... 
 	 or use Nodeclipse Plugins List plugin for drag-and-drop installation ( http://www.nodeclipse.org/updates/pluginslist/ ).
 	Please vote on Eclipse bugs, see below. Download Eclipse with plugins included from
@@ -23,12 +33,32 @@ Please help to get Kepler bugs fixed by voting on these 2 bugs (you should be re
 -	Bug 409802 - [import/export] Installation Remediation DOES NOT respect selected item in File-> Import .. -> Install Software Items from File "Import Software Configuration" Dialog
 	https://bugs.eclipse.org/bugs/show_bug.cgi?id=409802
 
-Please use the #enide #bootstrap-e4 tags to twit about.
+Please use the #enide #bootstrap-e4 tags to tweet about.
 
 -->
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='3'>
+  <ius size='7'>
+    <iu id='org.nodeclipse.pluginslist.feature.feature.group' name='Nodeclipse Plugins List' version='0.1.0.20130811-1427'>
+      <repositories size='1'>
+        <repository location='http://dl.bintray.com/nodeclipse/nodeclipse/0.6.0/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.e4.tools.css.editor.feature.feature.group' name='E4 CSS editor (Incubation)' version='0.14.0.v20130617-1345'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/e4/updates/0.14'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.e4.tools.css.spy.feature.feature.group' name='E4 CSS Spy (Incubation)' version='0.14.0.v20130617-1345'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/e4/updates/0.14'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.e4.core.tools.feature.feature.group' name='Eclipse e4 Tools (Incubation)' version='0.14.0.v20130620-0935'>
+      <repositories size='1'>
+        <repository location='http://download.eclipse.org/e4/updates/0.14'/>
+      </repositories>
+    </iu>
     <iu id='org.springsource.ide.eclipse.commons.quicksearch.feature.feature.group' name='Eclipse Quicksearch' version='3.4.0.201310051510-RELEASE'>
       <repositories size='1'>
         <repository location='http://dist.springsource.com/release/TOOLS/update/e4.3/'/>
